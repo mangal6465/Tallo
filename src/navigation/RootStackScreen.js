@@ -37,9 +37,9 @@ const RootStackScreen = ({ navigation }) => {
             {/* {LoginStatus == "" && */}
                 <>
                 {/* <RootStack.Screen name="SignUpScreen" component={SignUpScreen} /> */}
-                    <RootStack.Screen name="LoginScreen" headerBackground="red" component={LoginScreen}  options={{ headerShown: true ,title:"Login"  }}/>
-                    <RootStack.Screen name="Otp" component={OTPScreen} options={{ headerShown: true , title:"Verification" }} />
-                    <RootStack.Screen name="SignUpScreen" component={SignUpScreen} options={{ headerShown: true , title:"Registartion" }} />
+                    {/* <RootStack.Screen name="LoginScreen" headerBackground="red" component={LoginScreen}  options={{ headerShown: true ,title:"Login"  }}/>
+                    <RootStack.Screen name="Otp" component={OTPScreen} options={{ headerShown: true , title:"Verification" }} /> */}
+                    <RootStack.Screen name="SignUpScreen" component={SignUpScreen} options={{ headerShown: false , title:"Registartion" }} />
                 </>
             {/* } */}
             <RootStack.Screen name="HomeScreen" component={HomeScreen} />
